@@ -1,0 +1,218 @@
+header {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  background-color: #000107;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+header nav ul li a {
+  color: var(--color-gray-100);
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  transition: opacity 0.3s ease;
+}
+
+header nav ul li a:hover {
+  opacity: 0.7;
+}
+
+.s-hero {
+  width: 100%;
+  padding-top: 11.3rem;
+  background-color: #000107;
+  padding-bottom: 14.4rem;
+}
+
+.s-hero .text {
+  width: 100%;
+  max-width: 93.4rem;
+
+  position: relative;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 114px;
+}
+
+.s-hero .text span {
+  color: var(--color-gray-500);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 2px;
+}
+
+.s-hero .text span b {
+  color: var(--color-gray-100);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 2px;
+}
+
+.s-hero .text h2 {
+  padding: 2.4rem 0 1.6rem;
+  letter-spacing: -0.05em;
+
+  font: normal 500 72px / 70px "Poppins";
+  text-align: center;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#fb28ff),
+    to(#284bff)
+  );
+  background-image: -o-linear-gradient(left, #fb28ff, #284bff);
+  background-image: linear-gradient(to right, #fb28ff, #284bff);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.s-hero .text p {
+  color: var(--color-gray-100);
+  margin-bottom: 7.2rem;
+
+  position: relative;
+  max-width: 53.7rem;
+  font-size: 1.5rem;
+  line-height: 2.9rem;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.s-hero .container .profile {
+  width: 52rem;
+  height: 67.3rem;
+  background-image: url(../imgs/image.jpeg);
+  background-size: cover;
+}
+
+.s-hero .particles-one {
+  position: absolute;
+  right: 178px;
+  top: -54px;
+  pointer-events: none;
+}
+
+.s-hero .particles-two {
+  position: absolute;
+  top: 122px;
+  left: 206px;
+  pointer-events: none;
+}
+
+.s-about {
+  padding-bottom: 14.4rem;
+}
+
+.s-about .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 7.2rem;
+}
+
+.s-about .text {
+  margin-top: 8rem;
+  max-width: 62.6rem;
+}
+
+.s-about .photo {
+  position: relative;
+  width: 52rem;
+}
+
+.s-about .text h5 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.s-about .text h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 120%;
+  margin-top: 2.4rem;
+}
+
+.s-about .text p {
+  color: var(--color-gray-600);
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 4rem 0 2.4rem;
+  max-width: 48.4rem;
+}
+
+.s-about .text a {
+  color: var(--color-gray-100);
+}
+
+.s-about .text .skills {
+  margin-top: 5.6rem;
+}
+
+.s-about .text .skills ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+}
+
+.s-about .text .skills .skill {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+
+  border-radius: 100px;
+  border: 1px solid var(--color-gray-100, #f6f6f6);
+  padding: 1.2rem 1.6rem;
+}
+
+.s-about .text .skills .skill h6 {
+  color: var(--color-gray-100);
+  font-family: "Inter", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 120%;
+}
