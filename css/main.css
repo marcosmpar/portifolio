@@ -28,6 +28,7 @@ header nav ul li a {
   font-family: "Inter", sans-serif;
   font-size: 1.6rem;
   transition: opacity 0.3s ease;
+  text-transform: uppercase;
 }
 
 header nav ul li a:hover {
@@ -60,6 +61,11 @@ header nav ul li a:hover {
   margin-bottom: 114px;
 }
 
+.s-hero .text .pixel {
+  position: absolute;
+  top: 0;
+}
+
 .s-hero .text span {
   color: var(--color-gray-500);
   font-family: "Poppins", sans-serif;
@@ -81,8 +87,8 @@ header nav ul li a:hover {
 .s-hero .text h2 {
   padding: 2.4rem 0 1.6rem;
   letter-spacing: -0.05em;
-
-  font: normal 500 72px / 70px "Poppins";
+  margin-top: 1.3rem;
+  font: normal 500 62px / 70px "Poppins";
   text-align: center;
   background-image: -webkit-gradient(
     linear,
@@ -119,8 +125,8 @@ header nav ul li a:hover {
 
 .s-hero .particles-one {
   position: absolute;
-  right: 178px;
-  top: -54px;
+  right: 17.8rem;
+  top: -5.4rem;
   pointer-events: none;
 }
 
@@ -231,12 +237,10 @@ header nav ul li a:hover {
   .container {
     width: 100%;
   }
-  .s-hero {
-  }
 
   .s-hero .text h2 {
-    font-size: 60px;
-    line-height: 58px;
+    font-size: 6rem;
+    line-height: 5.8rem;
   }
 
   .s-about .container {
@@ -258,6 +262,7 @@ header nav ul li a:hover {
     text-align: center;
     max-width: 100%;
   }
+
   .s-about .text h5 {
     text-align: center;
     max-width: 100%;
@@ -267,17 +272,26 @@ header nav ul li a:hover {
     display: flex;
     justify-content: center;
   }
+
+  .s-about .photo {
+    width: 33rem;
+  }
 }
 
 @media (max-width: 480px) {
   .s-hero {
     padding-top: 4rem;
-    padding-bottom: 94px;
+    padding-bottom: 9.4rem;
+  }
+
+  .s-hero .text .pixel {
+    display: none;
   }
 
   .s-hero .desktop {
     display: none;
   }
+
   .s-hero .mobile {
     display: block;
     position: absolute;
@@ -285,19 +299,20 @@ header nav ul li a:hover {
     margin-left: -187.5px;
     max-width: initial;
   }
+
   .s-hero .ilustra {
     position: relative;
-    height: 419px;
+    height: 41.9rem;
   }
 
   .s-hero .text {
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
   }
 
   .s-hero .text h2 {
     margin-top: 0;
-    max-width: 322px;
-    font-size: 40px;
-    line-height: 46px;
+    max-width: 32.2rem;
+    font-size: 4rem;
+    line-height: 4.6rem;
   }
 }
