@@ -297,7 +297,7 @@ header nav ul li a:hover {
 
 @media (max-width: 480px) {
   .s-hero {
-    padding-top: 4rem;
+    padding-top: 10rem;
     padding-bottom: 9.4rem;
   }
 
